@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## **Features**
+
+- Add / Edit / Delete **Skills**  
+- Add / Edit / Delete **Projects** (with name & description)  
+- Live **resume preview**  
+- **Download PDF** using jsPDF  
+- Fully responsive & modern UI  
+- Built with **Next.js 13**, **React**, **Tailwind CSS**
+
 ## Getting Started
 
 First, run the development server:
