@@ -1,46 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📄 Resume Builder
 
-## **Features**
+A modern and responsive Resume Builder application built with Next.js, React, and Tailwind CSS. Users can easily create, edit, preview, and download professional resumes in PDF format.
 
-- Add / Edit / Delete **Skills**  
-- Add / Edit / Delete **Projects** (with name & description)  
-- Live **resume preview**  
-- **Download PDF** using jsPDF  
-- Fully responsive & modern UI  
-- Built with **Next.js 13**, **React**, **Tailwind CSS**
+## 🚀 Live Demo
 
-## Getting Started
+Add your deployed link here:
 
-First, run the development server:
+```text
+https://your-demo-link.vercel.app
+```
+
+## 📌 Features
+
+* ✨ Create professional resumes instantly
+* 🛠️ Add, edit, and delete skills
+* 📂 Add, edit, and manage projects
+* 👀 Real-time resume preview
+* 📄 Download resume as PDF
+* 📱 Fully responsive design
+* ⚡ Fast and modern user experience
+* 🎨 Clean and attractive UI
+* 🔄 Dynamic state management with React
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js 15
+* React 19
+* TypeScript
+* Tailwind CSS
+
+### PDF Generation
+
+* jsPDF
+
+## 📂 Project Structure
+
+```bash
+ui-project-resume/
+│
+├── app/
+│   ├── page.tsx
+│   └── layout.tsx
+│
+├── components/
+│
+├── public/
+│
+├── styles/
+│
+├── package.json
+├── tailwind.config.ts
+├── next.config.ts
+└── README.md
+```
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Kundank8789/ui-project-resume.git
+```
+
+### Navigate to Project
+
+```bash
+cd ui-project-resume
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 How It Works
 
-## Learn More
+1. Enter your resume details.
+2. Add skills and projects.
+3. Preview your resume instantly.
+4. Make edits in real time.
+5. Download the final resume as a PDF.
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Resume Form
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add screenshot here:
 
-## Deploy on Vercel
+```md
+![Resume Form](./public/screenshots/form.png)
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Resume Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# ui-project-resume
+```md
+![Resume Preview](./public/screenshots/preview.png)
+```
+
+## 🌟 Future Improvements
+
+* Multiple resume templates
+* Profile image upload
+* Education section
+* Work experience section
+* Theme customization
+* Resume sharing via URL
+* Cloud storage integration
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Kulbhushan Kumar
+
+GitHub: https://github.com/Kundank8789
+
+LinkedIn: Add Your LinkedIn Profile
+
+---
+
+⭐ If you found this project helpful, please consider giving it a star on GitHub.
+
